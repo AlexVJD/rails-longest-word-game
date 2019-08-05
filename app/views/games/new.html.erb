@@ -1,0 +1,13 @@
+<div class="scrabble">
+  <h1><% @letters.each do |letter| %></h1>
+    <div class="letter">
+    <%= letter %>
+  </div>
+  <% end %>
+</div>
+
+<div class="space">
+<form action="score">
+  <input type="text">
+</form>
+</div>
